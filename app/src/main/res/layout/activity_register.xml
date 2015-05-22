@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_register_padding"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="@dimen/activity_register_textview_normal_width"
+        android:layout_height="@dimen/activity_register_textview_normal_height"
+        android:text="@string/activity_register_nickname"
+        android:textSize="@dimen/activity_register_normal_textsize"
+        android:layout_marginTop="@dimen/activity_register_first_line_top_margin"
+        android:id="@+id/activity_register_nickname_textview" />
+
+    <EditText
+        android:layout_width="@dimen/activity_register_edittext_small_width"
+        android:layout_height="@dimen/activity_register_edittext_normal_height"
+        android:layout_alignTop="@id/activity_register_nickname_textview"
+        android:layout_toRightOf="@id/activity_register_nickname_textview"
+        android:layout_marginLeft="@dimen/activity_register_line_margin"
+        android:id="@+id/activity_register_nickname_edittext" />
+
+    <ImageButton
+        android:layout_width="@dimen/activity_register_imagebutton_size"
+        android:layout_height="@dimen/activity_register_imagebutton_size"
+        android:layout_alignTop="@id/activity_register_nickname_textview"
+        android:layout_toRightOf="@id/activity_register_nickname_edittext"
+        android:layout_marginLeft="@dimen/activity_register_line_margin"
+        android:id="@+id/activity_register_image_btn" />
+
+    <TextView
+        android:layout_width="@dimen/activity_register_textview_normal_width"
+        android:layout_height="@dimen/activity_register_textview_normal_height"
+        android:text="@string/activity_register_phone_number"
+        android:textSize="@dimen/activity_register_normal_textsize"
+        android:layout_marginTop="@dimen/activity_register_line_margin"
+        android:layout_alignLeft="@id/activity_register_nickname_textview"
+        android:layout_below="@id/activity_register_nickname_textview"
+        android:id="@+id/activity_register_phone_number_textview" />
+
+    <EditText
+        android:layout_width="@dimen/activity_register_edittext_normal_width"
+        android:layout_height="@dimen/activity_register_edittext_normal_height"
+        android:layout_alignTop="@id/activity_register_phone_number_textview"
+        android:layout_toRightOf="@id/activity_register_phone_number_textview"
+        android:layout_marginLeft="@dimen/activity_register_line_margin"
+        android:id="@+id/activity_register_phone_number_edittext" />
+
+    <TextView
+        android:layout_width="@dimen/activity_register_textview_normal_width"
+        android:layout_height="@dimen/activity_register_textview_normal_height"
+        android:text="@string/activity_register_password"
+        android:textSize="@dimen/activity_register_normal_textsize"
+        android:layout_marginTop="@dimen/activity_register_line_margin"
+        android:layout_alignLeft="@id/activity_register_nickname_textview"
+        android:layout_below="@id/activity_register_phone_number_textview"
+        android:id="@+id/activity_register_password_textview" />
+
+    <EditText
+        android:layout_width="@dimen/activity_register_edittext_normal_width"
+        android:layout_height="@dimen/activity_register_edittext_normal_height"
+        android:layout_alignTop="@id/activity_register_password_textview"
+        android:layout_toRightOf="@id/activity_register_password_textview"
+        android:layout_marginLeft="@dimen/activity_register_line_margin"
+        android:id="@+id/activity_register_password_edittext" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_register_textview_normal_height"
+        android:layout_below="@id/activity_register_password_textview"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/activity_register_first_line_top_margin">
+
+        <Button
+            android:layout_width="@dimen/activity_register_register_btn_width"
+            android:layout_height="@dimen/activity_register_imagebutton_size"
+            android:text="@string/activity_register_btn"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/activity_register_register_btn" />
+
+    </LinearLayout>
+</RelativeLayout>

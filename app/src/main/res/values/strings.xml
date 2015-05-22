@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">XueXiao</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 这个是注册界面的内容 -->
+    <string name="activity_register_nickname">昵称</string>
+    <string name="activity_register_phone_number">手机</string>
+    <string name="activity_register_phone_number_bg">你的手机号码</string>
+    <string name="activity_register_password">密码</string>
+    <string name="activity_register_password_bg">填写密码</string>
+    <string name="activity_register_btn">注册</string>
+
+    <!-- 这个是主界面 -->
+    <string name="activity_main_tab_bottom_new">最新动态</string>
+    <string name="activity_main_tab_bottom_publish">我的发布</string>
+    <string name="activity_main_tab_bottom_setting">设置</string>
+</resources>

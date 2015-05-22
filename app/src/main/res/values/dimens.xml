@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- register xml -->
+    <dimen name="activity_register_normal_textsize">20sp</dimen>
+
+    <dimen name="activity_register_padding">30dip</dimen>
+
+    <dimen name="activity_register_line_margin">10dip</dimen>
+    <dimen name="activity_register_first_line_top_margin">30dip</dimen>
+
+    <dimen name="activity_register_edittext_normal_width">200dip</dimen>
+    <dimen name="activity_register_edittext_small_width">150dip</dimen>
+    <dimen name="activity_register_edittext_normal_height">40dip</dimen>
+
+    <dimen name="activity_register_textview_normal_width">50dip</dimen>
+    <dimen name="activity_register_textview_normal_height">40dip</dimen>
+
+    <dimen name="activity_register_imagebutton_size">40dip</dimen>
+
+    <dimen name="activity_register_register_btn_width">200dip</dimen>
+
+
+    <!-- drawable select xml -->
+    <dimen name="drawable_select_view_size">200dip</dimen>
+    
+    
+    <!-- main xml -->
+    <dimen name="activity_main_tab_width">120dip</dimen>
+
+</resources>
